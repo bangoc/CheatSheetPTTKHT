@@ -3,13 +3,15 @@ Tổng hợp hình vẽ từ ví dụ về hệ thống lựa chọn CDs
 
 CHAPTER 1. Introduction to Systems Analysis and Design
 ------------------------------------------------------
-![example](http://example.com)
+![example](figures/CDs/CDs_01_init.jpg)
 PART ONE. Project Initiation, Project Management, and Requirements Determination
 ========================================================================
 
 CHAPTER 2. Project Initiation
 -----------------------------
-
+![example](figures/CDs/CDs_02-13.jpg)
+![example](figures/CDs/CDs_02-14.jpg)
+![example](figures/CDs/CDs_02-15.jpg)
 CHAPTER 3. Project Management
 -----------------------------
 
