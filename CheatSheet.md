@@ -2,215 +2,91 @@ Chương 1. giới thiệu phân tích và thiết kế hệ thống
 ---------------------------------------------------
 
 <br />*1.1. Hãy kể tên các pha cơ bản trong vòng đời phát triển hệ thống (SDLC)? Hãy giải thích mối quan hệ giữa các khái niệm pha, bước, kỹ thuật và sản phẩm?*
-Bốn pha cơ bản là: lập kế hoạch, phân tích, thiết kế, và thực hiện. Mỗi pha bao gồm một chuỗi các bước, mỗi bước được thực hiện bằng những kỹ thuật chuyên biệt và tạo nên các sản phẩm tương ứng.
 <br />*1.3. Mô tả các bước chính trong pha lập kế hoạch. Các sản phẩm chính là gì?*
-Pha lập kế hoạch là pha cơ bản để hiểu lý do xây dựng hệ thống và xác định phương hướng phát triển và xây dựng hệ thống đó. Có hai bước chính:
-Bước 1. Chuẩn bị dự án, xác định các giá trị kinh tế đối với tổ chức: hệ thống sẽ giảm chi phí hoặc tăng thu nhập như thế nào? Sản phẩm của pha này là yêu cầu hệ thống và kết quả phân tích tính khả thi.
-Bước 2. Quản lý dự án, trong bước này, người quản lý dự án lập kế hoạch làm việc, lựa chọn thành viên tham gia. Sản phẩm của bước này là kế hoạch thực hiện dự án.
 <br />*1.4. Mô tả các bước chính trong pha phân tích. Các sản phẩm chính của pha này là gì ?*
-Pha phân tích có ba bước chính là:
-Xây dựng chiến lược phân tích: phân tích hệ thống hiện tại và định hướng giải quyết các vấn đề và phương hướng xây dựng hệ thống mới.
-Thu thập yêu cầu: Thông qua phỏng vấn, khảo sát v.v. Kết hợp với thông tin từ nhà đầu tư dự án và các nguồn khác dẫn đến xây dựng khái niệm hệ thống và các mô hình kinh tế.
-Xây dựng đề xuất hệ thống: tổng hợp các phân tích, khái niệm hệ thống, và các mô hình. Sau đó đưa lên hội đồng thẩm định để thông qua.
-Sản phẩm chính của pha này là bản đề xuất hệ thống.
 <br />*1.5. Mô tả các bước chính trong pha thiết kế. Các sản phẩm chính của pha này là gì ?*
-Pha thiết kế gồm bốn bước chính:
-Xây dựng chiến lược thiết kế: quyết định tự xây dựng hệ thống, thuê đối tác hay sẽ mua gói phần mềm có sẵn.
-Xây dựng thiết kế kiến trúc cơ bản của hệ thống, mô tả phần cứng, phần mềm, và hạ tầng mạng sẽ sử dụng. Thiết kế giao diện: cách người dùng tương tác với hệ thống, các form, biểu mẫu hệ thống sử dụng.
-Xây dựng CSDL và đặc tả tệp. Xác định chính xác những dữ liệu nào cần được lưu và lưu ở đâu.
-Đội phân tích xây dựng thiết kế chương trình, mô tả cụ thể hệ thống sẽ xây dựng và mục đích sử dụng của hệ thống.
-Bộ sản phẩm ở pha này bao gồm: thiết kế kiến trúc, thiết kế giao diện, thiết kế CSDL và thiết kế chương trình được gọi chung là đặc tả hệ thống.
 <br />*1.6. Mô tả các bước chính trong pha thực hiện. Các sản phẩm chính của pha này là gì ?*
-Pha thực hiện gồm ba bước chính là:
-Xây dựng. Xây dựng chương trình và kiểm thử để chắc chắn chương trình làm việc đúng như thiết kế.
-Cài đặt: thay thế hệ thống cũ bằng hệ thống mới. Có thể kéo theo yêu cầu đào tạo người dùng sử dụng hệ thống mới.
-Thiết lập kế hoạch hỗ trợ: bao gồm các kiểm duyệt hậu cài đặt và các phương pháp có hệ thống để xác định các thay đổi cần thiết đối với hệ thống mới.
-Sản phẩm chính của pha này là hệ thống mới và kế hoạch bảo trì.
 <br />*1.7. Vai trò của nhà đầu tư dự án và hội đồng kiểm duyệt là gì ?*
-Nhà đầu tư dự án là cá nhân hoặc tổ chức đưa ra yêu cầu thực hiện dự án, cùng với những chủ thể đưa ra quyết định khác gọi chung là hội đồng kiểm duyệt. Có vai kiểm duyệt và đưa ra quyết định tiếp tục phát triển dự án qua các bước hay dừng lại.
 <br />*1.8. Khái niệm thiết lập từng bước có nghĩa như thế nào trong ngữ cảnh SDLC ?*
-SDL là một quá trình phát triển liên tục theo một quy luật tuần tự qua nhiều pha. Các sản phẩm của pha phân tích được sử dụng như dữ liệu đầu vào cho pha thiết kế để, và những sản phẩm thu được ở pha thiết kế lại tiếp tục được sử dụng như dữ liệu đầu vào cho pha thực hiện.
 <br />*1.9. So sánh các hệ phương pháp tập trung vào tiến trình và tập trung vào dữ liệu?*
-Hệ phương pháp tập trung vào tiến trình nhấn mạnh và xây dựng các tiến trình trước tiên, khác với các hệ phương pháp tập trung vào dữ liệu nhấn mạnh và định nghĩa các mô hình dữ liệu hỗ trợ các hoạt động trước tiên.
 ~~<br />*1.10. So sánh các hệ phương pháp thiết kế có cấu trúc và các hệ phương pháp RAD?*
-Các hệ phương pháp thiết kế có cấu trúc tuân thủ một quy luật phát triển chặt chẽ qua từng bước, và cần một khoảng thời gian lớn từ lúc bắt đầu yêu cầu hệ thống cho tới khi có hệ thống thực. Các hệ phương pháp RAD giải quyết các nhược điểm của các hệ phương pháp có cấu trúc bằng cách tùy chỉnh một vài pha của SDLC để tăng tốc, giảm thời gian chờ có hệ thống thực, nhờ đó người dùng có thể dễ hình dung hơn về hệ thống mình cần và có thể đưa vào các điều chỉnh cần thiết.
 <br />*1.11. So sánh XP và nguyên mẫu vứt bỏ.*~~
 <br />*1.12. Mô tả các thành phần chính và nhược điểm của phương pháp thác đổ?*
-Dự án được thực hiện từ pha này đến pha kế tiếp. Những sản phẩm chính của mỗi pha được trình cho hội đồng thẩm định để thông qua và chuyển dự án từ pha này sang pha khác.
-Mặc dù có thể chuyển theo chiều ngược của SDLC (ví dụ, từ thiết kế sang phân tích), nhưng thường rất khó.
-Hai nhược điểm chính của mô hình thác đổ là: 1) Thiết kế phải được hoàn thành trước khi bắt đầu lập trình; 2) Khoảng thời gian lớn từ khi khởi động dự án cho đến khi hoàn thành hệ thống.
 <br />*1.13. Mô tả các thành phần chính và nhược điểm của phương pháp song song?*
-Nhằm hướng tới giải quyết nhược điểm về thời gian của phương pháp thác đổ. Thay vì thực hiện thiết kế và triển khai theo trình tự, phương pháp thác đổ thực hiện một thiết kế khái quát cho toàn bộ hệ thống, và sau đó phân chia dự án thành một chuỗi các dự án nhỏ có thể thiết kế và triển khai song song. Sau khi hoàn thành, kết quả thực hiện các dự án nhỏ được tích hợp lại thành hệ thống.
-Ngoài nhược điểm liên quan đến khối lượng lớn tài liệu cần được thiết lập, đối với phương pháp song song còn có một vấn đề mới là: đôi khi các dự án nhỏ không hoàn toàn độc lập, dẫn đến khó khăn lớn khi tích hợp.
 <br />*1.14. Mô tả các thành phần chính và nhược điểm của phương pháp phát triển theo pha?*
-Phân chia các yêu cầu thành một chuỗi phiên bản được phát triển theo trình tự. Những yêu cầu cơ bản và quan trọng nhất được đưa vào phiên bản một. Sau khi hoàn thành phiên bản một, công việc lại tiếp tục với phiên bản hai và cứ tiếp tục như vậy.
-Nhược điểm chính là người dùng bắt đầu làm việc khi hệ thống vẫn chưa hoàn thiện. Vì vậy việc lựa chọn chính xác các yêu cầu để đưa vào phiên bản một và quản lý những mong muốn và phản hồi của người dùng là rất quan trọng.
 <br />*1.15. Mô tả các thành phần chính và nhược điểm của phương pháp dựa trên nguyên mẫu?*
-Phương pháp dựa trên nguyên mẫu thực hiện các pha phân tích, thiết kế và triển khai một cách đồng thời. Các pha này có thể được lặp lại nhiều lần cho tới khi hoàn thành hệ thống. Các phân tích và thiết kế cơ bản được thực hiện để tạo ra nguyên mẫu đơn giản đầu tiên, cung cấp một số lượng chức năng giới hạn. Nguyên mẫu được đưa ra cho nhà đầu tư và người dùng sử dụng để lấy phản hồi. Những phản hồi sẽ được sử dụng để phân tích, thiết kế, và thực hiện lại hệ thống. Quá trình này cứ lặp lại cho tới khi thu được hệ thống hoàn thiện.
-Vấn đề chính đối với phương pháp dựa trên nguyên mẫu là: Sức ép về thời gian hoàn thành hệ thống gây khó khăn cho việc thực hiện những phân tích chất lượng. Điều đó có thể dẫn đến những vấn đề nghiêm trọng đối với các hệ thống phức tạp khi mà các khó khăn cơ bản không được phát hiện sớm khi triển khai dự án.
 <br />*1.16. Mô tả các thành phần chính và nhược điểm của phương pháp dựa trên nguyên mẫu vứt bỏ?*
-Phương pháp dựa trên nguyên mẫu vứt bỏ có một bước phân tích sơ lược và nhanh chóng để xây dựng những ý tưởng cơ bản về hệ thống. Người dùng có thể không hiểu rõ về chức năng được đề xuất cũng như những khó khăn về mặt kỹ thuật cần giải quyết. Mỗi vẫn đề sẽ được kiểm tra, phân tích, thiết kế và xây dựng nguyên mẫu thiết kế (ko phải hệ thống hoàn chỉnh), chỉ đủ để giúp người dùng hiểu rõ về chức năng đang xây dựng. Khi các vấn đề đã được giải quyết, dự án được chuyển sang pha thiết kế và cài đặt, lúc này các nguyên mẫu thiết kế sẽ bị loại bỏ và không trở thành một phần của hệ thống.
-Nhược điểm của nguyên mẫu vứt bỏ là có thể tốn nhiều thời gian hơn so với phương pháp dựa trên nguyên mẫu.
 <br />*1.17. Các tiêu trí cơ bản trong lựa chọn một hệ phương pháp là gì?*
-Có sáu tiêu trí cơ bản là: Mức độ tường minh của yêu cầu người dùng, tính phổ thông của các công nghệ, độ phức tạp của hệ thống, độ tin cậy của hệ thống, thời gian thực hiện ngắn, khả năng kiểm soát về  tiến độ.
 <br />*1.18. Ca sử dụng là gì?*
-Một ca sử dụng mô tả cách người dùng tương tác với hệ thống để thực hiện một hoạt động cụ thể nào đó.
 <br />*1.19. Phát triển hướng ca sử dụng có nghĩa gì?*
-Phát triển hướng ca sử dụng có ý nghĩa là lấy ca sử dụng làm khung xương định hướng toàn bộ quá trình phát triển hệ thống.
 <br />*1.20. UML là gì?*
-UML là viết tắt của cụm từ Unified Modeling Language là một bộ biểu đồ chuẩn, cung cấp các thuật ngữ hướng đối tượng chung, đủ khả năng diễn đạt để mô hình hóa bất kỳ hệ thống nào từ pha phân tích cho đến pha thực hiện.
 <br />*1.21. OMG là gì?*
-OMG là viết tắt của cụm từ Object Management Group đã chính thức chấp nhận  UML là chuẩn cho phát triển đối tượng.
 <br />*1.22. Mục đích chính của những biểu đồ cấu trúc là gì? Hãy kể tên các loại biểu đồ cấu trúc?*
-Các biểu đồ cấu trúc cung cấp phương pháp biểu diễn dữ liệu và mối quan hệ tĩnh trong hệ thống thông tin. Các biểu đồ cấu trúc gồm có : biểu đồ : lớp, đối tượng, gói, phát hành, thành phần và kết hợp.
 <br />*1.23. Những biểu đồ hành vi được sử dụng để làm gì? Hãy kể tên các loại biểu đồ hành vi?*
-Các biểu đồ hành vi được dùng để phân tích các quan hệ động giữa các đối tượng trong hệ thống thông tin, mô hình hóa hành vi của đối tượng trong suốt thời gian tồn tại, mô hình hóa các yêu cầu chức năng của hệ thống. Các biểu đồ hành vi gồm có : biểu đồ : hoạt động, trình tự, cộng tác (communication), tương tác tổng quát (interaction overview), theo dõi thời gian (timing), máy trạng thái hành vi, máy trạng thái giao thức, và ca sử dụng.
 <br />*1.24. Vì sao lấy kiến trúc làm trung tâm (architecture centric) là quan trọng đối với phương pháp phân tích và thiết kế hướng đối tượng (OOSAD)?*
-Lấy kiến trúc làm trung tâm nghĩa là kiến trúc nền tảng quyết định đặc tả, xây dựng và tài liệu cho hệ thống. Lấy kiến trúc làm trung tâm quan trọng đối với tất cả các phương pháp phân tích và thiết kế hiện đại. OOSAD phải hỗ trợ tối thiểu ba khía cạnh kiến trúc cơ bản : chức năng – mô tả hành vi của hệ thống từ góc nhìn người dùng ; tĩnh, cấu trúc – mô tả hệ thống bẳng thuộc tính, phương thức, lớp, mối liên hệ ; động, hành vi – mô tả hệ thống bằng các thông điệp trao đổi giữa các đối tượng và sự thay đổi trạng thái của đối tượng.
 <br />*1.25. Lặp và tăng dần có nghĩa gì như thế nào với OOSAD ?*
-OOSAD nhấn mạnh lặp và tăng dần trên nền tảng kiểm thử và định nghĩa lại trong suốt vòng đời của dự án. Cả ba khía cạnh kiến trúc được xây dựng từng bước một : người phân tích (analyst) làm việc với người dùng để tạo ra biểu diễn chức năng. Sau đó xây dựng biểu diễn cấu trúc và biểu diễn hành vi của hệ thống. Khi đã thiết lập cả ba biểu diễn kiến trúc, người phân tích sẽ lặp qua cả ba biểu diễn này. Sau khi đã hiểu rõ hơn về các biểu diễn cấu trúc và các biểu diễn hành vi, người phân tích có thể khám pha những yêu cầu hoặc lỗi trong các biểu diễn chức năng. Mỗi khi hoàn thành một chu trình lặp, các yêu cầu chức năng sẽ trở nên rõ ràng hơn.
 <br />~~1.26. Unified Process có những pha và quy trình gì?
 <br />1.27. So sánh các pha của Unified Process với các pha của mô hình thác đổ?~~
 <br />*1.28. Các vai trò chính trong một đội là gì?*
-Có sáu vai trò chính trong một đội là: Người phân tích kinh tế, người phân tích hệ thống, người phân tích hạ tầng, người phân tích quản lý thay đổi, quản lý dự án.
 <br />*1.29. So sánh vai trò của người phân tích hệ thống, người phân tích kinh tế và người phân tích hạ tầng?*
-Người phân tích kinh tế phân tích những khía cạnh kinh tế chính của hệ thống. Xác định rõ bằng cách nào hệ thống mới có thể tạo ra những giá trị kinh tế. Thiết kế các quy trình nghiệp vụ và chính sách mới.
-Người phân tích hệ thống làm rõ bằng cách nào công nghệ có thể cải thiện quy trình nghiệp vụ. Thiết kế các quy trình mới. Thiết kế hệ thống thông tin. Đảm bảo rằng hệ thống tuân theo các chuẩn của hệ thống thông tin.
-Người phân tích hạ tầng đảm bảo rằng hệ thống tuân theo các chuẩn của hạ tầng hiện có. Xác định các thay đổi cần thiết đối với hạ tầng để hỗ trợ hệ thống mới.
 <br />~~1.30. Pha nào là quan trọng nhất trong SDLC ? Tại sao ?~~
 <br />*1.31. Nêu các đặc điểm chính đối với OOSAD?*
-OOSAD thường gắn với phương pháp phát triển theo pha thuộc hệ phương pháp RAD, chỉ giành ít thời gian cho mỗi pha trong vòng đời phát triển của hệ thống. OOSAD sử dụng các phương pháp phát triển hệ thống hướng ca sử dụng, lấy kiến trúc làm trung tâm, lặp và tăng dần. OOSAD hỗ trợ ba góc nhìn đối với hệ thống là: chức năng, tĩnh, và động. OOSAD cho phép người phân tích chia nhỏ hệ thống thành những thành phần nhỏ hơn và dễ quản lý hơn. Ngoài ra tư duy đối tượng được cho là tự nhiên hơn so với tiến trình hoặc dữ liệu,  OOSAD còn cho phép người phân tích giao tiếp với người dùng bằng các đối tượng trong môi trường của người dùng thay vì các quá trình hoặc dữ liệu.
 
 Chương 4. Xác định yêu cầu
 --------------------------
 
 <br />*4.1. Sản phẩm cuối cùng của pha phân tích là gì?*
-Pha phân tích tiếp nhận ý tưởng chính và yêu cầu hệ thống được thiết lập từ pha lập kế hoạch và xử lý những kết quả này. Kết quả cuối cùng của pha phân tích là tài liệu đề xuất hệ thống. Tài liệu này là kết quả tổng hợp từ: yêu cầu chi tiết, các mô hình chức năng, các mô hình cấu trúc và các mô hình hành vi.
 <br />*4.2. As-is system và to-be system là gì ?*
-As-is system là hệ thống hiện đang được sử dụng ở tổ chức. To-be system là hệ thống được yêu cầu phát triển với mục đích thay thế cho hệ thống hiện tại. Pha lập kế hoạch cung cấp các ý tưởng chính cho hệ thống mới và kế hoạch làm việc ban đầu để xây dựng hệ thống này.
 <br />*4.3. Mục đích xác định yêu cầu là gì ?*
-Mục đích của bước xác định yêu cầu là chuyển hóa các yêu cầu rất trừu tượng được đưa ra trong yêu cầu hệ thống thành một danh sách các yêu cầu chi tiết hơn có thể sử dụng được trong các bước phân tích tiếp theo (thiết lập các mô hình chức năng, mô hình cấu trúc và mô hình hành vi).
 <br />*4.4. Ba bước cơ bản của quá trình phân tích là gì ? Bước nào là đơn giản nhất? vì sao ?*
-Ba bước cơ bản của quá trình phân tích là : Tìm hiểu hệ thống hiện tại, xác định các cải tiến, và xây dựng các yêu cầu đối với hệ thống mới.
-Bước tìm hiểu hệ thống hiện tại là đơn giản hơn cả, vì thông thường có nhiều người dùng hiểu rõ về hệ thống đang sử dụng.
 <br />*4.5. So sánh các mục tiêu thương mại của BPA, BPI và BPR ?*
-BPA không hướng tới thay đổi các quá trình kinh tế mà chỉ cố gắng tối ưu hóa các quá trình hiện có, hứa hẹn những lợi ích nhỏ. BPI có thể thay đổi một vài khía cạnh của các quá trình hiện có, hướng tới những lợi ích ở mức trung bình. BPR hướng tới những thay đổi lớn về bản chất của các quá trình kinh tế, hướng tới những mục đích lớn.
 <br />*4.6. So sánh phân tích vấn đề và phân tích nguồn gốc. Áp dụng phân tích vấn đề trong hoàn cảnh nào ? phân tích nguồn gốc trong hoàn cảnh nào ?*
-Phân tích vấn đề có nghĩa là hỏi người dùng và người quản lý để xác định các vấn đề đối với hệ thống hiện tại và mô tả cách giải quyết các vấn đề này trong hệ thống mới. Các cải tiến thu được từ phân tích vấn đề thường có xu hướng nhỏ và nối tiếp. Phân tích này phù hợp để cải tiến hệ thống hiện tại, làm cho hệ thống trở nên hiệu quả hơn và thân thiện hơn. Hệ thống mới tốt hơn hệ thống cũ, tuy nhiên khó có thể xác định những lợi ích đáng kể từ hệ thống mới.
-Phân tích nguồn gốc là đi tìm hiểu bản chất, nguyên nhân gốc rễ của vấn đề chứ không phải những dấu hiệu bề nổi của vấn đề. Phân tích nguồn gốc sẽ tập trung nhiều hơn vào vấn đề để tìm ra bản chất thay vì các giải pháp cho từng vấn đề riêng lẻ (có thể có nhiều vấn đề có chung nguyên nhân).
 <br />*4.7. So sánh phân tích thời gian và phân tích chi phí dựa trên hoạt động?*
-Cả phân tích thời gian và phân tích chi phí dựa trên hoạt động đều tiến hành phân tích chi tiết các quá trình chính và các bước trong các quá trình đó. Sự khác biệt là phân tích thời gian quan tâm tới thời gian thực hiện từng hoạt động và so sánh thời gian thực hiện từng bước với thời gian hoàn thành cả quá trình.
-Phân tích chi phí dựa trên hoạt động quan tâm đến chi phí thực hiện từng bước, chi phí cho toàn bộ quá trình, xác định các quá trình tốn nhiều chi phí nhất và tìm cách cải tiến các quá trình này.
 <br />*4.8. Giả sử chi phí và thời gian không phải những yếu tố quan trọng, dự án BPR có thu được lợi ích từ việc sử dụng thêm thời gian để hiểu hệ thống đang có ? Tại sao có hoặc tại sao không ?*
-Business Process Reengineering (BPR) – Tái cấu trúc quy trình kinh tế hướng tới thay đổi cách hoạt động của tổ chức, thực hiện các thay đổi để phát huy những ưu thế của ý tưởng mới và công nghệ mới. Dự án BPR giành rất ít thời gian để hiểu hệ thống hiện có, bởi vì dự án phải tập trung vào những ý tưởng mới và những cách làm mới. Các hoạt động phổ biến của BPR là phân tích đầu ra, phân tích công nghệ và loại bỏ hoạt động.
 <br />*4.9. Các tiêu trí quan trọng để lựa chọn chiến lược phân tích yêu cầu phù hợp là gì?*
-Có bốn tiêu trí là : Giá trị kinh tế tiềm năng, chi phí dự án, quy mô phân tích và rủi ro.
 <br />*4.10. Các bước chính trong thực hiện phỏng vấn là gì ?*
-Có năm bước chính trong thực hiện phỏng vấn là : Lựa chọn đối tượng phỏng vấn, thiết kế câu hỏi phỏng vấn, chuẩn bị cho buổi phỏng vấn, thực hiện phỏng vấn và xử lý kết quả sau khi phỏng vấn.
 <br />*4.11. Giải thích sự khác biệt giữa các dạng câu hỏi closed-ended, open-ended, và probing. Khi nào thì sử dụng dạng câu hỏi nào?*
-Closed-ended là dạng câu hỏi yêu cầu câu trả lời cụ thể. Dạng câu hỏi này được sử dụng khi người phỏng vấn tìm kiếm những thông tin cụ thể, chính xác.
-Open-ended là dạng câu hỏi mang tính thảo luận, giành cho người phỏng vấn sự kiểm soát nhiều hơn đối với nội dung thông tin chao đổi. Dạng câu hỏi này được thiết kế để thu thập những thông tin phong phú hơn.
-Probing là dạng câu hỏi bổ xung vào những nội dung đã thảo luận, thường được sử dụng khi người phỏng vấn chưa hiểu về câu trả lời của người đươc phỏng vấn, khuyến khích người được phỏng vấn mở rộng câu trả lời hoặc xác nhận một thông tin nào đó.
 <br />*4.12. Giải thích sự khác biệt giữa phỏng vấn có cấu trúc và phi cấu trúc. Mỗi kiểu phỏng vấn phù hợp cho tình huống nào?*
-Phỏng vấn phi cấu trúc thường được sử dụng ở giai đoạn khởi động dự án, khi người phân tích vẫn chưa hiểu rõ về hệ thống hiện tại và tìm kiếm những thông tin khái quát.
-Phỏng vấn có cấu trúc được sử dụng ở giai đoạn khi dự án tiến triển, người phân tích đã hiểu rõ hơn về hệ thống hiện tại và cần tìm những thông tin rất cụ thể.
-Phỏng vấn phi cấu trúc khó hơn so với phỏng vấn có cấu trúc, bởi vì người phỏng vấn phải hỏi nhiều câu hỏi dạng open-ended và thực hiện probing.
 <br />*4.13. Giải thích sự khác biệt giữa phương pháp phỏng vấn top-down và bottom-up. Bạn nên sử dụng phương pháp nào trong trường hợp nào?*
-Trong phỏng vấn theo hướng top-down, người phỏng vấn bắt đầu với những vấn đề mang tính khái quát, và từng bước tiến đến những vấn đề cụ thể hơn.
-Trong phỏng vấn bottom-up, người phỏng vấn bắt đầu với nhưng câu hỏi cụ thể và từng bước tiến đến những vấn đề khái quát hơn.
-Top-down là phương pháp phỏng vấn phổ biến nhất và phù hợp cho hầu phần lớn các tình huống.
-Phương pháp bottom-up được ưu tiên hơn trong trường hợp người phân tích đã thu thập được số lượng lớn thông tin chi tiết và chỉ cần lấp đầy một vài chỗ chống, hoặc người được phỏng vấn không cảm thấy thoải mái với những câu hỏi khái quát.
 <br />*4.14. Lựa chọn đối tượng phỏng vấn và thành viên cho phiên JAD như thế nào?*
-Đối tượng phỏng vấn được lựa chọn dựa trên nhu cầu thông tin của người phân tích. Nhà đầu tư dự án, và những thành viên chính trong tổ chức có thể gợi ý cho người phỏng vấn ai trong tổ chức là người có thể cung cấp thông tin hữu ích nhất về những yêu cầu. Những người được lựa chọn sẽ được liệt kê trên lịch phỏng vấn theo trật tự phỏng vấn.
-Lựa chọn thành viên cho phiên JAD được thực hiện tương tự như cho phỏng vấn. Các thành viên được lựa chọn dựa trên những thông tin mà họ có thể đóng góp về các góc độ khác nhau của tổ chức, và hỗ trợ xây dựng hệ thống mới.
 <br />~~4.15. Theo bạn sự thật và ý kiến là gì? Vì sao cả hai đều hữu ích?~~
 <br />*4.16. Kể tên năm bước chính để thực hiện phiên JAD ?*
-Năm bước chính để thực hiện phiên JAD là: Lựa chọn thành viên, thiết kế phiên JAD, chuẩn bị cho phiên JAD, tổ chức phiên JAD, xử lý kết quả sau khi kết thúc phiên JAD.
 <br />*4.17. Hãy giải thích sự khác biệt giữa facilitator và scribe ?*
-Facilitator có vai trò điều hành, là người thiết lập chương trình cho phiên JAD và chủ trì các cuộc thảo luận và không tham gia vào thảo luận với vai trò thành viên. Facilitator không nêu ý tưởng hoặc ý kiến về chủ đề được thảo luận và giữ lập trường trung tính xuyên suốt phiên thảo luận.
-Scribe có vai trò hỗ trợ facilitator trong việc ghi chép thông tin, phân phát tài liệu v.v. trong suốt tiến trình thực hiện phiên JAD.
 <br />*4.18. Ba nhiệm vụ chính của facilitator khi điều phối phiên JAD là gì?*
-Facilitator của JAD đảm nhiệm ba chức năng quan trọng là: Đảm bảo nhóm làm việc theo đúng chương trình; giúp các thành viên hiểu các thuật ngữ kỹ thuật, biệt ngữ và các kỹ thuật phân tích; tổ chức thông tin được cung cấp bởi nhóm và giúp nhóm nhận diện các vấn đề chính và những giải pháp quan trọng.
 <br />*4.19. e-JAD là gì và có ưu điểm gì?*
-Electronic JAD (e-JAD) là một hình thức JAD mới. Trong phòng hợp e-JAD mỗi thành viên sử dụng phần mềm chuyên biệt để gửi ý tưởng và quan điểm tới các thành viên còn lại theo hình thức nặc danh. Cách làm này giúp tất cả các thành viên có thể đóng góp đồng thời và giải quyết được vấn đề đối với JAD là một vài thành viên có thể không đồng tình với quan điểm của những thành viên khác.
 <br />*4.20. Giải thích sự khác biệt trong thiết kế câu hỏi cho mục đích khảo sát và thiết kế câu hỏi cho phỏng vấn và phiên JAD?*
-Câu hỏi cho mục đích khảo sát phải được thiết lập rõ ràng để chánh hiểu lầm, dạng câu hỏi phổ biến nhất là dạng câu hỏi thuộc loại closed-ended. Các câu hỏi phải cho phép người phân tích phân biệt rõ ràng giữa sự thật và quan điểm. Các câu hỏi về quan điểm thường hỏi người trả lời đồng ý hoặc không đồng ý, các câu hỏi về sự thật thường tìm những giá trị cụ thể.
-Các câu hỏi phải thống nhất về mặt phong cách để người trả lời không cần phải đọc hướng dẫn trước khi trả lời mỗi câu hỏi. Có những ý kiến chuyên môn cho rằng bản khảo sát nên bắt đầu với những câu hỏi quan trọng đối với người trả lời để tạo sự hứng thú.
 <br />*4.21. Tỉ lệ phản hồi phổ biến đối với khảo sát là bao nhiêu và bạn có thể cải thiện tỉ lệ này bằng cách nào?*
-Tỉ lệ phản hồi đối với khảo sát sử dụng giấy và email chỉ từ 30% đến 50%, đối với khảo sát trên web là 5% đến 30%.
-Các phương pháp cải thiện tỉ lệ phản hồi: Giải thích rõ ràng về mục đích thực hiện khảo sát và lý do người được hỏi nên phản hồi. Định rõ ngày cần trả phản hồi, đề nghị phần thưởng khi hoàn thành khảo sát. Cung cấp thông tin tổng hợp kết quả kháo sát. Riêng đối với người phân tích hệ thống, có thể cải thiện tỉ lệ phản hồi bằng liên hệ riêng với những người tham gia khảo sát.
 <br />*4.22. Phân tích tài liệu là gì?*
-Phân tích tài liệu là phân tích các tài liệu hiện có trong tổ chức: Báo cáo, tài liệu hướng dẫn, tài liệu đào tạo người dùng, và giao diện người dùng của hệ thống hiện tại. Phân tích tài liệu giúp hiểu về hệ thống hiện có.
 <br />*4.23. Hệ thống thiết kế (formal system) và hệ thống thực (real, informal) khác nhau như thế nào? Ý nghĩa của việc đối chiếu hệ thống thực với hệ thống thiết kế là gì?*
-Các tài liệu có trong tổ chức giúp hiểu hệ thống hiện có. Trong nhiều trường hợp, hệ thống thực có nhiều điểm khác với hệ thống thiết kế, và những sự khác biệt này có thể là dấu hiệu để xác định những thay đổi cần thiết.
-Những khác biệt như khi người dùng tạo mẫu riêng hoặc thêm những thông tin bổ xung vào những mẫu hiện có là những dấu hiệu rõ ràng nhất cần cải thiện hệ thống hiện tại.
 <br />*4.24. Các khía cạnh chính của việc sử dụng quan sát trong quá trình thu thập thông tin?*
-Quan sát là hành động theo dõi tiến trình đang diễn ra, là một công cụ hữu ích để thu thập thông tin về hệ thống hiện có, bởi vì thông qua quan sát người phân tích có thể nắm bắt về tình hình thực tế. Đồng thời theo dõi cũng là một cách tốt để kiểm chứng lại những thông tin thu được trực tiếp từ phỏng vấn hoặc khảo sát.
-Điều quan trọng trong quá trình quan sát là tránh làm ảnh gián đoạn hoặc ảnh hưởng đến công việc của người bị quan sát, mục đích là giữ cho các hoạt động diễn ra như một ngày làm việc bình thường.
 <br />*4.25. Liệt kê các tiêu trí lựa chọn kỹ thuật thu thập thông tin phù hợp?*
-Việc lựa chọn kỹ thuật thu thập thông tin nào phụ thuộc vào: Loại thông tin; Độ sâu của thông tin (mức độ chi tiết); Chiều rộng của thông tin; Khả năng tích hợp thông tin; Sự tham gia của người dùng; Chi phí; Khả năng kết hợp nhiều kỹ thuật.
 
 Chương 5. Mô hình hóa chức năng
 -------------------------------
 
 <br />*5.1. Mô hình hóa quy trình nghiệp vụ có ích lợi gì?*
-Mô hình hóa quy trình nghiệp vụ có thể được sử dụng để làm rõ các yêu cầu đã thu thập được. Mặc dù mô hình hóa quy trình nghiệp vụ củng cố cách phân tích hướng chức năng, tuy nhiên đối với phương pháp hướng đối tượng, mô hình hóa nghiệp vụ vẫn có thể là công cụ hữu ích giúp người phân tích giới thiệu các yêu cầu hệ thống với người dùng.
 <br />*5.2. Mục đích sử dụng của biểu đồ hoạt động là gì?*
-Biểu đồ hoạt động có thể được sử dụng để mô hình hóa bất kỳ quá trình nào. Trong phân tích và thiết kế hệ thống, biểu đồ hoạt động được sử dụng để mô hình hóa quy trình nghiệp vụ. Biểu đồ hoạt động minh họa quá trình hoặc các hoạt động đang được thực hiện và cách các đối tượng di chuyển giữa các hoạt động này.
 <br />*5.3. Sự khác biệt giữa một hoạt động (activity) và một hành động (action) là gì?*
-Cả hoạt động và hành động đều là những hành vi được thực hiện bởi người hoặc máy, và biểu diễn trên biểu đồ hoạt động bằng hình chữ nhật với góc tròn, tên được đặt theo cú pháp bắt đầu bằng động từ và kết thúc bằng một danh từ.
-Điểm khác biệt giữa hoạt động và hành động là, một hoạt động có thể được chia thành nhiều hoạt động và hành động nhỏ hơn. Trong khi đó hành động là một thao tác cơ bản không chia nhỏ hơn được.
 <br />*5.4. Nút rẽ nhánh được sử dụng làm gì?*
-Nút rẽ nhánh được sử dụng để tách một hành vi của quy trình nghiệp vụ thành nhiều luồng song song hoặc cạnh tranh. Nút rẽ nhánh cùng với nút kết hợp được sử dụng để mô hình hóa các tiến trình song song và cạnh tranh. Khác với nút quyết định, các nhánh trong nút rẽ nhánh không loại trừ lẫn nhau.
 <br />*5.5. Kể tên các loại nút điều khiển?*
-Có bẩy dạng nút điều khiển trên biểu đồ hoạt động: Bắt đầu hoạt động, kết thúc hoạt động, kết thúc luồng, quyết định, sáp nhập (merge), rẽ nhánh (fork) và kết hợp (join).
 <br />*5.6. Nêu sự khác biệt giữa luồng điều khiển và luồng đối tượng?*
-Luồng điều khiển mô hình hóa tiến trình thực hiện hành động xuyên suốt một quá trình nghiệp vụ. Luồng điều khiển được vẽ bởi một đường liền nét với mũi tên thể hiện thứ tự thực hiện hành động. Luồng điều khiển chỉ có thể được gắn với các hoạt động và các hành động. Luồng đối tượng mô hình hóa sự di chuyển của đối tượng trong suốt quá trình nghiệp vụ. Luồng đối tượng được thể hiện bởi đường kẻ đứt nét với mũi tên chỉ hướng di chuyển. Mỗi bước dịch chuyển phải được gắn kết một hoạt động hoặc một hành động với một đối tượng.
 <br />*5.7. Nút đối tượng là gì?*
-Các hoạt động và hành động thường gây tác động lên đối tượng nào đó. Các nút đối tượng mô hình hóa các đối tượng này trên biểu đồ hoạt động. Nút đối tượng được biểu diễn trên biểu đồ hoạt động dưới dạng hình chữ nhật, tên lớp của đối tượng được viết trong hình chữ nhật. Nút đối tượng thể hiện luồng chao đổi thông tin giữa các hoạt động.
 <br />*5.8. Vẽ biều đồ ca sử dụng liên quan như thế nào đến mô hình hóa chức năng ?*
-Biểu đồ ca sử dụng tổng hợp tất cả các ca sử dụng vào trong một biểu đồ. Sử dụng biểu đồ hoạt động giúp người phân tích hiểu rõ hơn về các chức năng của hệ thống ở mức tổng quan. Ngoài ra biểu đồ ca sử dụng còn giúp ích cho người dùng bổ xung thêm các yêu cầu chưa được nhắc đến trong các ca sử dụng đã có.
 <br />*5.9. Hãy giải thích các thuật ngữ sau : (a) tác nhân ; (b) ca sử dụng ; (c) đường biên hệ thống ; (d) mối quan hệ?*
-Tác nhân là người hoặc hệ thống phần mềm khác có tác động lên hệ thống, nhưng không phải là một phần của hệ thống; ca sử dụng biểu diễn một phần cụ thể của hệ thống; đường biên hệ thống biểu diễn phạm vi của hệ thống, giúp phân biệt thành phần bên ngoài với thành phần bên trong hệ thống; mối quan hệ (relationship) thể hiện các quan hệ giữa các ca sử dụng và giữa ca sử dụng với các tác nhân.
 <br />*5.10. Mỗi liên kết loại association phải kết nối một ……… và một …….. Tại sao ?*
-Mỗi liên kết association phải kết nối một tác nhân và một ca sử dụng. Tác nhân nằm bên ngoài đường biên hệ thống, ca sử dụng nằm bên trong đường biên hệ thống. Quan hệ association không có đầu mũi tên thể hiện chao đổi thông tin hai chiều giữa tác nhân và ca sử dụng.
 <br />*5.11. CRUD là gì ? Vì sao lại hữu ích ?*
-CRUD là viết tắt của nhóm các hành động create : tạo, read : đọc, update : cập nhật, delete : xóa. Xác định tác nhân cần thực hiện những thao tác nào đối với dữ liệu của hệ thống hữu ích cho việc xác định các chức năng mà hệ thống cần cung cấp cho tác nhân đó.
 <br />*5.12. Ca sử dụng chi tiết khác với ca sử dụng khái quát như thế nào ?*
-Kịch bản khái quát được sử dụng để cho phép người phân tích và người dùng thống nhất ở mức khái quát về các yêu cầu chức năng đối với hệ thống. Sau khi thống nhất, ca sử dụng khái quát có thể được phát triển tiếp thành ca sử dụng chi tiết. Một ca sử dụng chi tiết thường ghi chú hầu hết thông tin cần thiết để thực hiện một ca sử dụng.
 <br />*5.13. Ca sử dụng cơ bản khác ca sử dụng thực tế như thế nào ?*
-Ca sử dụng cơ bản chỉ mô tả những vấn đề chính, cốt lõi, cần thiết để hiểu về chức năng được yêu cầu. Ca sử dụng thực tế mô tả chi tiết hơn và có tập bước cụ thể để thực hiện chức năng đó. Sự khác biệt là: Ca sử dụng cơ bản không phụ thuộc vào cách triển khai, trong khi ca sử dụng thực thế là mô tả chi tiết cách sử dụng hệ thống sau khi hoàn thành.
 <br />*5.14. Các thành phần cơ bản của một ca sử dụng khái quát là gì ?*
-Một ca sử dụng khái quát chỉ chứa những thông tin cơ bản về ca sử dụng gồm : Tên, ID, tác nhân chính, phân loại và mô tả ngắn gọn.
 <br />*5.15. Các thành phần cơ bản của một ca sử dụng chi tiết là gì ?*
-Một ca sử dụng chi tiết chứa những thông tin sau : Tên, ID, tác nhân chính, phân loại, mô tả ngắn gọn, mức độ quan trọng, các đối tượng liên quan (stakeholder), điều kiện kích hoạt, các mối liên hệ và các luồng sự kiện.
 <br />*5.16. Trình bày các bước trong hướng dẫn tạo mô tả luồng sự kiện cho ca sử dụng?*
-Bẩy bước thiết lập mô tả luồng sự kiên cho ca sử dụng là : bước 1 : Viết mỗi bước theo mẫu Chủ ngữ - động từ - đối tượng chịu tác động trực tiếp (hoặc vị từ - đối tượng chịu tác động gián tiếp) ; bước 2 : Kiểm tra kết quả bước 1 và đảm bảo đã nêu rõ ai thực hiện hành động và ai chịu tác động ; bước 3 : viết các bước từ góc nhìn của người quan sát độc lập ; bước 4 : viết các bước trên cùng một cấp độ trừu tượng ; bước 5 : kiểm tra và đảm bảo ca sử dụng có tập các bước hợp lệ ; bước 6 : áp dụng nguyên tắc KISS, chia luồng sự kiện chính thành các luồng con đơn giản hơn nếu cần thiết ; bước 7 : điều chỉnh các bước lặp nếu có.
 <br />*5.17. Vì sao chúng ta chỉ cố gắng có từ ba đến chín ca sử dụng trong một quy trình nghiệp vụ ?*
-Giữ số lượng ca sử dụng chính trong phạm vi từ ba đến chín để giữ cho mô hình dễ đọc và đơn giản. Trong trường hợp có quá nhiều ca sử dụng có thể kiểm tra và tìm cách gom những ca sử dụng nhỏ thành những ca sử dụng khái quát hơn.
 <br />*5.18. Vẽ biểu đồ ca sử dụng như thế nào?*
-Vẽ biều đồ ca sử dụng được thực hiện qua bốn bước chính : Đầu tiên là vẽ đường biên hệ thống, đường biên này sẽ tách biệt ca sử dụng và tác nhân. Kế đến là vẽ các ca sử dụng lên biểu đồ. Sau đó là vẽ tác nhân, các tác nhân phải được đặt gần những ca sử dụng gắn với tác nhân đó để giảm thiểu những điều cắt ngang biểu đồ. Bước thứ tư và cũng là bước cuối cùng, là vẽ các đường nối tác nhân với ca sử dụng.
 <br />*5.19. Hãy kể một vài heuristic đối với vẽ biểu đồ ca sử dụng?*
-Có thể tìm kiếm ca sử dụng trên các biểu đồ hoạt động của quy trình nghiệp vụ. Trong nhiều trường hợp, các hoạt động trên biểu đồ hoạt động có thể là các ca sử dụng tiềm năng.
-Khi một ca sử dụng thay đổi, nó có thể ảnh hưởng đến biểu đồ ca sử dụng. Số lượng ca sử dụng trên biểu đồ ca sử dụng không nên vượt ra ngoài giới hạn từ ba tới chín. Tác nhân nên được đặt gần những ca sử dụng liên quan đến tác nhân đó.
 <br />*5.20. Vì sao bước lặp quan trọng trong thiết lập ca sử dụng?*
-Xác định ca sử dụng là một quá trình lặp qua nhiều bước. Bởi vì đối với tập ca sử dụng hiện có, có thể phải tách một ca sử dụng thành một vài ca sử dụng nhỏ hơn, hoặc có thể gộp một vài ca sử dụng nhỏ thành một ca sử dụng khái quát hơn v.v. Dựa trên tập ca sử dụng đang có, đôi khi có thể nảy sinh những ca sử dụng mới. Người dùng cũng có thể thay đổi suy nghĩ về phạm vi một ca sử dụng và nội dung của ca sử dụng đó.
 <br />*5.21. Điểm quan sát của ca sử dụng là gì, vì sao lại quan trọng?*
-Mỗi ca sử dụng thể hiện một trường hợp tương tác cụ thể giữa người dùng và hệ thống. Những tương tác này thể hiện chức năng của hệ thống từ góc nhìn người dùng. Đây là điểm khác biệt cơ bản với phương pháp phân tích và thiết kế hệ thống truyền thống – hướng chức năng. Cách thể hiện ca sử dụng như vậy làm đơn giản hóa việc thiết kế và phát triển một phần hệ thống độc lập với các phần khác.
 <br />*5.22. Trình bày các bước trong hướng dẫn thiết lập tập ca sử dụng? Lấy hai ví dụ quan hệ mở rộng (extend) và hai ví dụ quan hệ bao gồm (include)?*
-Xác định các ca sử dụng chính : bước 1 : Soát lại biểu đồ hoạt động để có cái nhìn khái quát về quá trình kinh tế đang được mô hình hóa ; bước 2 : Xác định phạm vi của hệ thống. Tuy nhiên trong suốt SDLC giới hạn này có thể thay đổi ; bước 3 : Xác định các tác nhân chính và nhiệm vụ của những tác nhân này ; bước 4 : Xác định và mô tả khái quát về các ca sử dụng chính ; bước 5 : Rà soát kỹ lưỡng tập ca sử dụng.
-Mở rộng các ca sử dụng chính. Bước 6 : Lựa chọn ca sử dụng để mở rộng (có thể theo thứ tự ưu tiên) ; bước 7 : Điền các thông tin chi tiết về ca sử dụng theo mẫu ; bước 8 : Thiết lập luồng sự kiện chính ; bước 9 : Kiểm tra các thao tác ở bước 8 và đảm bảo rằng các bước không quá phức tạp hoặc quá dài ; bước 10 : Xác định các luồng sự kiện tương đương và các luồng thay thế ; bước 11 : mô tả các luồng tương đương và các ngoại lệ.
-Thông qua các ca sử dụng. Bước 12 kiểm duyệt các ca sử dụng đang có, xác nhận với người dùng để đảm bảo các bước là đúng đắn. Xác định các mối quan hệ bao chùm, mở rộng, khái quát hóa đối với các ca sử dụng ; bước 13 : lặp lại các bước đã liệt kê cùng với người dùng cho đến khi chắc chắn bộ ca sử dụng thu được là đầy đủ và đúng đắn.
-Ví dụ quan hệ mở rộng : Đặt-lịch-hẹn mở rộng Tạo-tài-khoản-khách-hàng-mới, Đặt-lịch-hẹn mở rộng Đặt-tiền-thanh-toán-trước
-Quan hệ bao gồm : Cung-cấp-thông-tin-lịch-làm-việc bao gồm Quản-lý-lịch-làm-việc, Đánh-dấu-thời-gian-tiếp-nhận bao gồm Quản-lý-lịch-làm-việc (hình 5.5).
 <br />*5.23. Những gì trong danh sách sau có thể là tác nhân trên biểu đồ ca sử dụng? Vì sao ?*
-Ms. Mary Smith
-Nhân Viên
-Khách Hàng
-Mr. John Seals
-Nhân viên bán hàng
-Người quản trị CSDL
-
 <br />~~5.24. Điểm ca sử dụng là gì? Điểm ca sử dụng được dùng vào mục đích gì?
 <br />5.25. Chúng ta sử dụng quá trình nào để ước lượng chi phí phát triển hệ thống dựa trên ca sử dụng?~~
 
