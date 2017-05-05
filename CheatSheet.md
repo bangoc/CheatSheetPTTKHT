@@ -6,11 +6,11 @@ Chương 1. giới thiệu phân tích và thiết kế hệ thống
 <br />*1.4. Mô tả các bước chính trong pha phân tích. Các sản phẩm chính của pha này là gì ?*
 <br />*1.5. Mô tả các bước chính trong pha thiết kế. Các sản phẩm chính của pha này là gì ?*
 <br />*1.6. Mô tả các bước chính trong pha thực hiện. Các sản phẩm chính của pha này là gì ?*
-<br />*1.7. Vai trò của nhà đầu tư dự án và hội đồng kiểm duyệt là gì ?*
-<br />*1.8. Khái niệm thiết lập từng bước có nghĩa như thế nào trong ngữ cảnh SDLC ?*
-<br />*1.9. So sánh các hệ phương pháp tập trung vào tiến trình và tập trung vào dữ liệu?*
-~~<br />*1.10. So sánh các hệ phương pháp thiết kế có cấu trúc và các hệ phương pháp RAD?*
-<br />*1.11. So sánh XP và nguyên mẫu vứt bỏ.*~~
+~~<br />*1.7. Vai trò của nhà đầu tư dự án và hội đồng kiểm duyệt là gì ?*~~
+~~<br />*1.8. Khái niệm thiết lập từng bước có nghĩa như thế nào trong ngữ cảnh SDLC ?*~~
+~~<br />*1.9. So sánh các hệ phương pháp tập trung vào tiến trình và tập trung vào dữ liệu?*~~
+~~<br />*1.10. So sánh các hệ phương pháp thiết kế có cấu trúc và các hệ phương pháp RAD?*~~
+~~<br />*1.11. So sánh XP và nguyên mẫu vứt bỏ.*~~
 <br />*1.12. Mô tả các thành phần chính và nhược điểm của phương pháp thác đổ?*
 <br />*1.13. Mô tả các thành phần chính và nhược điểm của phương pháp song song?*
 <br />*1.14. Mô tả các thành phần chính và nhược điểm của phương pháp phát triển theo pha?*
@@ -23,13 +23,13 @@ Chương 1. giới thiệu phân tích và thiết kế hệ thống
 <br />*1.21. OMG là gì?*
 <br />*1.22. Mục đích chính của những biểu đồ cấu trúc là gì? Hãy kể tên các loại biểu đồ cấu trúc?*
 <br />*1.23. Những biểu đồ hành vi được sử dụng để làm gì? Hãy kể tên các loại biểu đồ hành vi?*
-<br />*1.24. Vì sao lấy kiến trúc làm trung tâm (architecture centric) là quan trọng đối với phương pháp phân tích và thiết kế hướng đối tượng (OOSAD)?*
+~~<br />*1.24. Vì sao lấy kiến trúc làm trung tâm (architecture centric) là quan trọng đối với phương pháp phân tích và thiết kế hướng đối tượng (OOSAD)?*~~
 <br />*1.25. Lặp và tăng dần có nghĩa gì như thế nào với OOSAD ?*
-<br />~~1.26. Unified Process có những pha và quy trình gì?
-<br />1.27. So sánh các pha của Unified Process với các pha của mô hình thác đổ?~~
+~~<br />1.26. Unified Process có những pha và quy trình gì?~~
+~~<br />1.27. So sánh các pha của Unified Process với các pha của mô hình thác đổ?~~
 <br />*1.28. Các vai trò chính trong một đội là gì?*
 <br />*1.29. So sánh vai trò của người phân tích hệ thống, người phân tích kinh tế và người phân tích hạ tầng?*
-<br />~~1.30. Pha nào là quan trọng nhất trong SDLC ? Tại sao ?~~
+~~<br />1.30. Pha nào là quan trọng nhất trong SDLC ? Tại sao ?~~
 <br />*1.31. Nêu các đặc điểm chính đối với OOSAD?*
 
 Chương 4. Xác định yêu cầu
@@ -39,10 +39,10 @@ Chương 4. Xác định yêu cầu
 <br />*4.2. As-is system và to-be system là gì ?*
 <br />*4.3. Mục đích xác định yêu cầu là gì ?*
 <br />*4.4. Ba bước cơ bản của quá trình phân tích là gì ? Bước nào là đơn giản nhất? vì sao ?*
-<br />*4.5. So sánh các mục tiêu thương mại của BPA, BPI và BPR ?*
-<br />*4.6. So sánh phân tích vấn đề và phân tích nguồn gốc. Áp dụng phân tích vấn đề trong hoàn cảnh nào ? phân tích nguồn gốc trong hoàn cảnh nào ?*
-<br />*4.7. So sánh phân tích thời gian và phân tích chi phí dựa trên hoạt động?*
-<br />*4.8. Giả sử chi phí và thời gian không phải những yếu tố quan trọng, dự án BPR có thu được lợi ích từ việc sử dụng thêm thời gian để hiểu hệ thống đang có ? Tại sao có hoặc tại sao không ?*
+~~<br />*4.5. So sánh các mục tiêu thương mại của BPA, BPI và BPR ?*~~
+~~<br />*4.6. So sánh phân tích vấn đề và phân tích nguồn gốc. Áp dụng phân tích vấn đề trong hoàn cảnh nào ? phân tích nguồn gốc trong hoàn cảnh nào ?*~~
+~~<br />*4.7. So sánh phân tích thời gian và phân tích chi phí dựa trên hoạt động?*~~
+~~<br />*4.8. Giả sử chi phí và thời gian không phải những yếu tố quan trọng, dự án BPR có thu được lợi ích từ việc sử dụng thêm thời gian để hiểu hệ thống đang có ? Tại sao có hoặc tại sao không ?*~~
 <br />*4.9. Các tiêu trí quan trọng để lựa chọn chiến lược phân tích yêu cầu phù hợp là gì?*
 <br />*4.10. Các bước chính trong thực hiện phỏng vấn là gì ?*
 <br />*4.11. Giải thích sự khác biệt giữa các dạng câu hỏi closed-ended, open-ended, và probing. Khi nào thì sử dụng dạng câu hỏi nào?*
