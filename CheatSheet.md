@@ -1,36 +1,22 @@
 Chương 1. giới thiệu phân tích và thiết kế hệ thống
 ---------------------------------------------------
 
-<br />*1.1. Hãy kể tên các pha cơ bản trong vòng đời phát triển hệ thống (SDLC)? Hãy giải thích mối quan hệ giữa các khái niệm pha, bước, kỹ thuật và sản phẩm?*
-<br />*1.3. Mô tả các bước chính trong pha lập kế hoạch. Các sản phẩm chính là gì?*
-<br />*1.4. Mô tả các bước chính trong pha phân tích. Các sản phẩm chính của pha này là gì ?*
-<br />*1.5. Mô tả các bước chính trong pha thiết kế. Các sản phẩm chính của pha này là gì ?*
-<br />*1.6. Mô tả các bước chính trong pha thực hiện. Các sản phẩm chính của pha này là gì ?*
-~~<br />*1.7. Vai trò của nhà đầu tư dự án và hội đồng kiểm duyệt là gì ?*~~
-~~<br />*1.8. Khái niệm thiết lập từng bước có nghĩa như thế nào trong ngữ cảnh SDLC ?*~~
-~~<br />*1.9. So sánh các hệ phương pháp tập trung vào tiến trình và tập trung vào dữ liệu?*~~
-~~<br />*1.10. So sánh các hệ phương pháp thiết kế có cấu trúc và các hệ phương pháp RAD?*~~
-~~<br />*1.11. So sánh XP và nguyên mẫu vứt bỏ.*~~
-<br />*1.12. Mô tả các thành phần chính và nhược điểm của phương pháp thác đổ?*
-<br />*1.13. Mô tả các thành phần chính và nhược điểm của phương pháp song song?*
-<br />*1.14. Mô tả các thành phần chính và nhược điểm của phương pháp phát triển theo pha?*
-<br />*1.15. Mô tả các thành phần chính và nhược điểm của phương pháp dựa trên nguyên mẫu?*
-<br />*1.16. Mô tả các thành phần chính và nhược điểm của phương pháp dựa trên nguyên mẫu vứt bỏ?*
-<br />*1.17. Các tiêu trí cơ bản trong lựa chọn một hệ phương pháp là gì?*
+<br />*1.1. Hãy kể tên các pha cơ bản trong vòng đời phát triển hệ thống? Sản phẩm chính của mỗi pha là gì?*
+<br />*1.12. Vẽ sơ đồ phát triển hệ thống theo phương pháp thác đổ? Ưu/nhược điểm của phương pháp này?*
+<br />*1.13. Vẽ sơ đồ phát triển hệ thống theo phương pháp song song? Ưu/nhược điểm của phương pháp này?*
+<br />*1.14. Vẽ sơ đồ phát triển hệ thống theo phương pháp chia pha? Ưu/nhược điểm của phương pháp này?*
+<br />*1.15. Vẽ sơ đồ phát triển hệ thống theo phương pháp nguyên mẫu? Ưu/nhược điểm của phương pháp này?*
+<br />*1.16. Vẽ sơ đồ phát triển hệ thống theo phương pháp loại bỏ nguyên mẫu? Ưu/nhược điểm của phương pháp này?*
+<br />*1.17. Kể tên các tiêu trí lựa chọn phương pháp phát triển hệ thống?*
 <br />*1.18. Ca sử dụng là gì?*
-<br />*1.19. Phát triển hướng ca sử dụng có nghĩa gì?*
 <br />*1.20. UML là gì?*
-<br />*1.21. OMG là gì?*
-<br />*1.22. Mục đích chính của những biểu đồ cấu trúc là gì? Hãy kể tên các loại biểu đồ cấu trúc?*
-<br />*1.23. Những biểu đồ hành vi được sử dụng để làm gì? Hãy kể tên các loại biểu đồ hành vi?*
-~~<br />*1.24. Vì sao lấy kiến trúc làm trung tâm (architecture centric) là quan trọng đối với phương pháp phân tích và thiết kế hướng đối tượng (OOSAD)?*~~
-<br />*1.25. Lặp và tăng dần có nghĩa gì như thế nào với OOSAD ?*
-~~<br />1.26. Unified Process có những pha và quy trình gì?~~
-~~<br />1.27. So sánh các pha của Unified Process với các pha của mô hình thác đổ?~~
-<br />*1.28. Các vai trò chính trong một đội là gì?*
-<br />*1.29. So sánh vai trò của người phân tích hệ thống, người phân tích kinh tế và người phân tích hạ tầng?*
-~~<br />1.30. Pha nào là quan trọng nhất trong SDLC ? Tại sao ?~~
-<br />*1.31. Nêu các đặc điểm chính đối với OOSAD?*
+<br />*1.21. OMG là tổ chức gì?*
+<br />*1.22. Các biểu đồ cấu trúc được sử dụng cho mục đích gì? Hãy kể tên các loại biểu đồ cấu trúc?*
+<br />*1.23. Các biểu đồ hành vi được sử dụng cho mục đích gì? Hãy kể tên các loại biểu đồ hành vi?*
+<br />*1.24. Giải thích các khái niệm Use-Case driven, architecture centric, Iterative and Incremental đối với OOSAD?*
+<br />*1.26. Unified Process có những pha và quy trình gì?*
+<br />*1.27. So sánh các pha của Unified Process với các pha của mô hình thác đổ?*
+<br />*1.31. Hãy mô tả các vấn đề chính của OOSAD? OOSAD có ưu điểm gì so với các trường phái truyền thống?*
 
 Chương 4. Xác định yêu cầu
 --------------------------
